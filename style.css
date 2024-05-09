@@ -1,0 +1,103 @@
+body{
+  background-image: url(login-bg.png);
+}
+
+.title{
+  text-align: center;
+  color: #04fffb;
+  font-size: 32px;
+}
+
+.subtitle{
+  text-align: center;
+  color: #04fffb;
+  font-size: 20px;
+}
+
+
+.btn{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: #04fffb;
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  color: #fff;
+  border: 2px solid transparent;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+
+.contacts{
+  padding: 2rem 9%;
+}
+
+.contacts h2{
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff; 
+  font-size: 7rem;
+
+}
+
+.contacts h2 span{
+  color: #04fffb;
+  font-size: 7rem;
+
+}
+
+.contacts .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contacts .row .img{
+  flex: 1 1 40rem;
+}
+
+.contacts .row form{
+  flex: 1 1 40rem;
+  
+}
+
+.contacts .row form .box{
+  width: 100%;
+  margin: 1rem 0rem 2rem;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  border:  2px solid  #04fffb;
+  background-color: transparent;
+  
+}
+
+.contacts .row form span{
+  color:  #04fffb;
+  font-size: calc(12px + (16 - 12)
+  * ((100vh - 300px) / (1600 - 300)));
+}
+
+.contacts .row textarea .box{
+  width: 100%;
+  margin: 1rem 0rem 2rem;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  border:  2px solid  #04fffb;
+  background-color: transparent;
+
+
+}
+
+::placeholder{
+color:  #04fffb;
+}
+
+input{
+color: #fff;
+}
+
